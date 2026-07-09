@@ -48,7 +48,19 @@ WHILE guess ~= answer DO
     INPUT guess
 END
 OUTPUT "You guessed right!\n"
+PS REPEAT means WHILE true (no BREAK statement in Brainfine means you have to exit with QUIT to 
+    quit the program)
+END
 
+-- REPEAT OUTPUT "test\n" END
+-- ^ commented out becaue otherwise it would be an infinite loop
+
+-- There are also IF and FOR statements:
+IF 5 = 5 THEN
+    OUTPUT "5 = 5\n"
+OTHERWISE IF 6 = 5 THEN
+    OUTPUT "6 = 5\n"
+OTHERWISE OUTPUT "5 and 6 both do not = 5\n" END
 
 -- Functions/subroutines are called `tasks` and declared like this
 TASK SayHi DOES

@@ -1,0 +1,8 @@
+TASK taskName DOES
+    OUTPUT "This is taskName running.\n"
+END
+
+RUN taskName
+RUN taskName
+OUTPUT "This is a regular output.\n"
+RUN taskName
