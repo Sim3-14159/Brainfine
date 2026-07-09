@@ -1,0 +1,59 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    END
+    EQ
+    FOR
+    GE
+    GT
+    IF
+    INPUT
+    LE
+    LT
+    OUTPUT
+    RUN
+    SET
+    WHILE
+
+Grammar
+
+Rule 0     S' -> program
+Rule 1     program -> statement_list
+Rule 2     statement_list -> statement_list statement
+Rule 3     statement_list -> statement
+Rule 4     statement -> IDENTIFIER EQUALS NUMBER
+Rule 5     statement -> TASK IDENTIFIER LPAREN RPAREN statement_list ENDTASK
+Rule 6     statement -> CALL IDENTIFIER LPAREN RPAREN
+
+Terminals, with rules where they appear
+
+END                  : 
+EQ                   : 
+FOR                  : 
+GE                   : 
+GT                   : 
+IDENTIFIER           : 4 5 6
+IF                   : 
+INPUT                : 
+LE                   : 
+LPAREN               : 5 6
+LT                   : 
+NUMBER               : 4
+OUTPUT               : 
+RPAREN               : 5 6
+RUN                  : 
+SET                  : 
+TASK                 : 5
+WHILE                : 
+error                : 
+
+Nonterminals, with rules where they appear
+
+CALL                 : 6
+ENDTASK              : 5
+EQUALS               : 4
+program              : 0
+statement            : 2 3
+statement_list       : 1 2 5
+
