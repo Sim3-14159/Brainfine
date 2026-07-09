@@ -62,6 +62,12 @@ OTHERWISE IF 6 = 5 THEN
     OUTPUT "6 = 5\n"
 OTHERWISE OUTPUT "5 and 6 both do not = 5\n" END
 
+IF true THEN OUTPUT "true" OTHERWISE OUTPUT "false" END
+
+SET somelist TYPE list TO [1, 2, 4, 3]
+FOR item IN somelist DO OUTPUT item END
+
+
 -- Functions/subroutines are called `tasks` and declared like this
 TASK SayHi DOES
     OUTPUT "Hello.\n"
