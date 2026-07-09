@@ -8,7 +8,7 @@ from .preprocessor import BrainfinePreprocessor
 def main(argv: list[str] | None = None) -> int:
     args = list(sys.argv[1:] if argv is None else argv)
     if not args:
-        args = [str(Path(__file__).resolve().parent.parent / "sample.bfn")]
+        args = [str(Path(__file__).resolve().parent / "sample.bfn")]
 
     for path_str in args:
         path = Path(path_str).resolve()
