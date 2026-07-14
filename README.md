@@ -15,7 +15,7 @@
 </table>
 
 
-## Getting Started
+## Installation
 
 You can go to the [releases](https://github.com/Sim3-14159/Brainfine/releases/latest) page and download a binary for your system. 
 
@@ -23,7 +23,10 @@ If you want to compile from scratch, you need to have have [Unicon](https://gith
 ```bash
 git clone https://github.com/Sim3-14159/Brainfine && cd Brainfine
 make
-# To install system wide
+```
+
+You can optionally also install Brainfine system-wide:
+```bash
 sudo make install
 ```
 
@@ -52,5 +55,10 @@ OUTPUT "Hello, World!"
 
 ## Usage
 
-Once you have made a Brainfine program with the extention *.bfn*, you can run `brainfine [filename].bfn` or just `brainfine [filename]` to compile it. It will output to the file *[filename].bf* by default, or you can choose an output file like `brainfine [filename] [output]`.
+Once you have made a Brainfine program with the extention *.bfn*, you can run `brainfine [filename].bfn` or just `brainfine [filename]` to compile it. It will output to the file *[filename].bf* by default, or you can choose an output file like `brainfine [filename] [output]`. 
 
+You can then run the output file with a Brainf*** interpreter like [Beef](https://github.com/andreabolognani/beef).
+
+
+## License
+This project uses an [MIT License](https://opensource.org/license/MIT), so you can use, modify, or share this project however you like!
