@@ -1,19 +1,13 @@
-# Brainfine 
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MS-DOS logo" src="Images/logo.png"> 
+
+<h1 style="margin-left: 160px">Brainfine</h1>
+
+
+Brainfine is a highly human readable programming language with ABC-like syntax, that compiles to Brainf***.
+<br><br><br>
 
 > [!NOTE]
 > Brainfine is still being built, so these instructions may not work yet.
-
-<table>
-    <tr>
-        <td>
-            <h3><i>Brainfine is a highly human readable programming language with ABC-like syntax, that compiles to Brainf***.</i></h3>
-        </td>
-        <td>
-
-![Brainfine logo](Images/logo.png)
-        </td>
-    </tr>
-</table>
 
 
 ## Installation
