@@ -1,10 +1,10 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Brainfine logo" src="Images/logo.png"> 
 
 <img alt="Brainfine title" src="Images/title.svg">
-<br><br>
+<br>
 
 Brainfine is a highly human readable programming language with ABC-like syntax, that compiles to Brainf***.
-<br><br><br>
+<br><br>
 
 > [!NOTE]
 > Brainfine is still being built, so these instructions may not work yet.
