@@ -9,7 +9,7 @@
             <h3><i>Brainfine is a highly human readable programming language with ABC-like syntax, that compiles to Brainf***.</i></h3>
         </td>
         <td>
-            <img src="Images/logo.png" alt="Brainfine logo" width="300">
+            <img src="Images/logo.png" alt="Brainfine logo">
         </td>
     </tr>
 </table>
