@@ -1,7 +1,7 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MS-DOS logo" src="Images/logo.png"> 
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Brainfine logo" src="Images/logo.png"> 
 
-<h1 style="margin-left: 160px">Brainfine</h1>
-
+<img alt="Brainfine title" src="Images/title.svg">
+<br><br>
 
 Brainfine is a highly human readable programming language with ABC-like syntax, that compiles to Brainf***.
 <br><br><br>
